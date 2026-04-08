@@ -1,0 +1,27 @@
+# Datos grandes — no subir a GitHub
+data/players.db
+data/players_ui.json
+data/players_embed.js
+data/players_with_predictions.csv
+
+# Modelos binarios grandes — usar Git LFS si se necesitan
+# models/*.pkl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Streamlit
+.streamlit/secrets.toml
